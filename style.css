@@ -1,70 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+    background-color: #f4f4f4;
     color: #333;
-}
-
-header {
-    background-color: #ff5722;
-    color: white;
     text-align: center;
-    padding: 20px 0;
 }
 
 h1 {
-    font-size: 36px;
+    color: #222;
 }
 
-.auth-form {
-    background-color: white;
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
     padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 400px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-input {
-    width: 100%;
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #ff5722;
+    background-color: #007bff;
     color: white;
+    padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #e64a19;
-}
-
-.newsletter {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    width: 80%;
-    max-width: 400px;
+    background-color: #0056b3;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-footer p {
-    margin: 0;
+    margin-top: 20px;
+    font-size: 14px;
 }
